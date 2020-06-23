@@ -1,0 +1,21 @@
+{
+    "name": "streetlamp/test",
+    "description": "这是我的描述",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "streetlamp",
+            "email": "27180129@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php":">=5.6"
+    },
+    "autoload":{
+    	"psr-4":{
+    		"Abc\\":"src/Abc"
+    	}
+    }
+}
